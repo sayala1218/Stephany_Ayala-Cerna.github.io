@@ -155,10 +155,66 @@ nav .right a span{
     margin: 10px;
 }
 
+/* section 4: Projects */
+.projects-section{
+    padding:0 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 700%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+.carousel-item img {
+    width: 100%;
+    border-bottom: 2px solid #4CAF50;  
+}
+.carousel-item h3{
+    margin: 15px 0 10px;
+}
+.carousel-item p{
+    padding: 0 15px 20px;
+    color: #666;
+}
+/* Navigation Arrows */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.prev:hover, .next:hover {
+    background-color: #45a049;
+}
+
 /* section 4: Contact */
 
 .contact-section{
-    padding: 0 50px;
+    /* padding: 0 50px; */
     margin-bottom: 100px;
 
 }
