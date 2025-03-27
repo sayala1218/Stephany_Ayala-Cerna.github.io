@@ -181,8 +181,8 @@ nav .right a span{
     box-sizing: border-box;
 }
 .carousel-item img {
-    width: 100%;
-    border-bottom: 2px solid #4CAF50;  
+    width: 60%;
+    border-bottom: 2px solid #314abb;  
 }
 .carousel-item h3{
     margin: 15px 0 10px;
@@ -196,7 +196,7 @@ nav .right a span{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #4CAF50;
+    background-color: #314abb;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -208,7 +208,7 @@ nav .right a span{
 .next { right: 10px; }
 
 .prev:hover, .next:hover {
-    background-color: #45a049;
+    background-color: #200d78;
 }
 
 /* section 4: Contact */
